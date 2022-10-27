@@ -10,7 +10,7 @@ def main():
         __sock.setsockopt(SOL_SOCKET, SO_REUSEADDR, 1)
 
         __sock.bind(('127.0.0.1', 30011))
-
+        print(hellowolrd)
         packet:bytes = __sock.recv(2048)
         proto = RacoonMW_Packet()
         proto.ParseFromString(packet) #複合
