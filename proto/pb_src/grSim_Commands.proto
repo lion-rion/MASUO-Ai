@@ -1,4 +1,5 @@
 syntax = "proto2";
+option go_package = "github.com/lion-rion/MASUO-Ai/proto/pb_gen";
 
 message grSim_Robot_Command {
 required uint32 id = 1;

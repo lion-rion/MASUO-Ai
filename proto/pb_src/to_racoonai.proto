@@ -1,4 +1,5 @@
 syntax = "proto2";
+option go_package = "github.com/lion-rion/MASUO-Ai/proto/pb_gen";
 
 option go_package = "github.com/Rione-SSL/RACOON-Pi/proto/pb_gen";
 

@@ -1,4 +1,5 @@
 syntax = "proto2";
+option go_package = "github.com/lion-rion/MASUO-Ai/proto/pb_gen";
 
 import "grSim_Commands.proto";
 import "grSim_Replacement.proto";

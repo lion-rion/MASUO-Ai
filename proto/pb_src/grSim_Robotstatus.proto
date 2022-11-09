@@ -1,4 +1,5 @@
 syntax = "proto2";
+option go_package = "github.com/lion-rion/MASUO-Ai/proto/pb_gen";
 
 message Robots_Status{
   repeated Robot_Status robots_status = 1;
